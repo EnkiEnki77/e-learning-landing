@@ -11,7 +11,7 @@
 <body>
 
   <header>
-    <img id="logo" src="./assets/logo-dark.svg" alt="">
+    <img id="logo" src="./assets/logo-dark.svg" alt="header logo">
     <button class="get-started-btn header-btn"><a href="#" >Get Started</a></button>
   </header>
 
@@ -24,12 +24,21 @@
       </p>
     
       <button class="get-started-btn header-btn"><a href="#" >Get Started</a></button>
+
+      <picture>
+        <source srcset="./assets/image-hero-desktop.png" media="(min-width: 1200px)"> 
+        <source srcset="./assets/image-hero-tablet.png" media="(min-width: 750px)"> 
+        <img src="./assets/image-hero-mobile.png" alt="Hero sketch">
+      </picture>
  </section>
 
  <section id="courses">
       <div><h2>Check out our most popular courses!</h2></div>
     
       <article>
+          <div class="article-logo">
+            <img src="./assets/icon-animation.svg" alt="man running">
+          </div>
           <h3>Animation</h3>
           <p>
               Learn the latest animation techniques to create stunning motion 
@@ -39,6 +48,9 @@
       </article>
     
      <article>
+        <div class="article-logo">
+            <img src="./assets/icon-design.svg" alt="man running">
+          </div>
           <h3>Design</h3>
           <p>
               Create beautiful, usable interfaces to help shape the future of 
@@ -48,6 +60,9 @@
      </article>
     
      <article>
+        <div class="article-logo">
+            <img src="./assets/icon-photography.svg" alt="man running">
+          </div>
           <h3>Photography</h3>
           <p>
               Explore critical fundamentals like lighting, composition, and focus 
@@ -57,6 +72,9 @@
      </article>
     
       <article>
+        <div class="article-logo">
+            <img src="./assets/icon-crypto.svg" alt="man running">
+          </div>
           <h3>Crypto</h3>
           <p>
               All you need to know to get started investing in crypto. Go from beginner 
@@ -66,6 +84,9 @@
       </article>
     
       <article>
+        <div class="article-logo">
+            <img src="./assets/icon-business.svg" alt="man running">
+          </div>
           <h3>Business</h3>
           <p>
               A step-by-step playbook to help you start, scale, and sustain your business 
@@ -75,6 +96,9 @@
       </article>
  </section>
 
-  <button class="get-started-btn header-btn"><a href="#" >Get Started</a></button>
+ <footer>
+    <img id="logo" src="./assets/logo-light.svg" alt="footer logo">
+    <button class="get-started-btn header-btn"><a href="#" >Get Started</a></button>
+ </footer>
 
 </body>
